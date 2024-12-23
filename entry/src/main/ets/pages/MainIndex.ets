@@ -1,6 +1,6 @@
 @Entry
 @Component
-struct Index {
+struct MainIndex {
   @State message: string = 'Hello World';
 
   build() {
@@ -16,8 +16,5 @@ struct Index {
     }
     .height('100%')
     .width('100%')
-  }
-
-  onPageShow(): void {
   }
 }

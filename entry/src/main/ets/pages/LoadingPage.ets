@@ -63,7 +63,7 @@ struct LoadingPage {
   private toIndexPage() {
     clearInterval(this.timerId)
     router.pushUrl({
-      url: 'pages/Index'
+      url: 'pages/MainIndex'
     })
   }
 }
