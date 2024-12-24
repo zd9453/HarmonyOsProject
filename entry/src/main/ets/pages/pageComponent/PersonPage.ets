@@ -1,3 +1,5 @@
+import { TitlePersonLayout } from '../viewComponent/TitleLayout';
+
 @Preview
 @Component
 export struct PersonPage {
@@ -5,6 +7,7 @@ export struct PersonPage {
 
   build() {
     RelativeContainer() {
+      TitlePersonLayout()
       Text(this.message)
         .id('_content_')
         .displayPriority(1)

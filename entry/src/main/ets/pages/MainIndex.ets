@@ -1,6 +1,6 @@
-import { ActionPage } from './pageComponent/ActionPage'
-import { HomePage } from './pageComponent/HomePage'
-import { PersonPage } from './pageComponent/PersonPage'
+import { ActionPage } from './pageComponent/ActionPage';
+import { HomePage } from './pageComponent/HomePage';
+import { PersonPage } from './pageComponent/PersonPage';
 
 interface Module {
   name: string,
