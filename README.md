@@ -22,3 +22,27 @@
   *或在菜单栏Navigate页签下选择Type Hierarchy，在弹出的Hierarchy窗口中查看接口/类的继承关系结构*
 
 ---
+
+- **提取公共样式**
+
+```ArkTs
+@Extend(Image)
+function titleImageStyle(click?: () => void) {   
+    .width(TITLE_LAYOUT_HEIGHT)   
+    .padding(10)   
+    .aspectRatio(1)   
+    .onClick(click)   
+}
+```
+
+*使用*
+
+```javascript
+Image($r('app.media.ic_public_view_grid'))
+    .titleImageStyle(() => { //点击事件
+        console.log(">>>>", 'icon click')
+    })
+```
+
+---
+
