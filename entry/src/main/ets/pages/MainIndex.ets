@@ -40,6 +40,10 @@ struct MainIndex {
     })
   }
 
+  /**
+   * 导航按钮生成
+   * @param item  alt+F7 查看调用
+   */
   @Builder
   tabBuilder(item: Module) {
     Column() {
